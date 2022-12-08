@@ -1,0 +1,30 @@
+Software Required :-
+
+1:- Python 3.6.8 ( While installing Don't Forget to click on add to path checkbox
+2:- Xampp ( Install on C drive only )
+
+
+Library :- 
+
+Open cmd 
+
+1:- Type cd/ and press enter
+2:- pip install libraryname  ( Note:- Type the library name instead on libraryname)
+
+Note:-  
+	Version for some library
+		1:- pip install tensorflow==1.14.0
+		2:- pip install keras==2.2.4
+		3:- pip install h5py=2.10.0
+
+
+Extract the given zip 
+
+1:- Copy the folder to C:\xampp\htdocs\ 
+2:- Paste the Folder
+3:- Open http://localhost/phpmyadmin/
+4:- Click on New and add database name and say create (Note:- Check the database name in given folder)
+5:- Select created database and go to import menu and browse the database file
+6:- Run ur python/jupyter code and when its last block is been executed Go to :-
+			Crome and type :- localhost/foldername (type ur foldername which is pasted in C:\xampp\htdocs\ )
+
